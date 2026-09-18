@@ -15,11 +15,6 @@ public class Desenhista extends Autor {
         this.estilo = estilo;
     }
 
-    @Override 
-    public int getPontuacao() {
-        return super.getPontuacao() + this.getTempoCasa() * 2;
-    }
-
     public String getEstilo() {
         return this.estilo;
     }

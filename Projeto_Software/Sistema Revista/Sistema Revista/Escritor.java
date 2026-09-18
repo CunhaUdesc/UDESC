@@ -12,6 +12,11 @@ public class Escritor extends Autor {
         this.registro = registro;
     }
 
+    @Override 
+    public int getPontuacao() {
+        return super.getPontuacao() + this.getTempoCasa() * 2;
+    }
+
     public int getRegistro() {
         return this.registro;
     }
